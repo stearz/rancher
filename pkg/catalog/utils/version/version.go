@@ -8,7 +8,7 @@ import (
 
 var (
 	numberRe = regexp.MustCompile("[0-9]+")
-	wordRe   = regexp.MustCompile("[a-z]+")
+	wordRe   = regexp.MustCompile("[a-zA-Z]+")
 )
 
 func GreaterThan(a, b string) bool {
